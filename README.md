@@ -1,8 +1,6 @@
 Overview
 --------
-In this project we scrap data from 2 websites, namely The Washington Post and NFL News. We then dump the article data, specifically the title, author, date and body content, 
-into a json file. The body content data is then lemmatized, stemmed and stripped of all stop words and dumped into a seperate field in the json file. Then using the json file 
-and gensim we performed topic modeling. Additionally for each topic we found the 20 most likely words that occurred in that topic.
+Python project to scrape news articles from specific sites using BeautifulSoup. Applied NLP techniques to the data and then performed topic modeling on the cleaned data.
 
 Data description
 -----------------
