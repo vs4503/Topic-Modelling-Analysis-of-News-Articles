@@ -1,13 +1,3 @@
-#project-1-csci-720_project1
-
-Topic Modelling Analysis of News Articles
-=========================================
-
-Name of Participants
---------------------
-* Alejandrina Jimenez Guzman (aj7354)
-* Vaibhav Santurkar (vs4503)
-
 Overview
 --------
 In this project we scrap data from 2 websites, namely The Washington Post and NFL News. We then dump the article data, specifically the title, author, date and body content, 
@@ -16,7 +6,7 @@ and gensim we performed topic modeling. Additionally for each topic we found the
 
 Data description
 -----------------
-We obtained the data from the following sites, and scrapped a total of approximately 100-105 articles.
+Data obtained from the following sites.
 1) The Washington Post: https://www.washingtonpost.com/
 2) NFL News: https://www.nfl.com/news/
 
@@ -29,10 +19,5 @@ Python Modules Used
 5) Pandas
 6) Gensim
 
-Setup
-------
-Both programs do not require arguements to run. The **articles.json** file needs to kept in the same directory as the programs to be correctly loaded and read. 
-
-We used Mallet to get a better quality of topics. Gensim provides a wrapper to implement Mallet’s LDA from within Gensim itself. We only need to download the zipfile provided in this repo, unzip it and provide the path to mallet in the unzipped directory to gensim.models.wrappers.LdaMallet(). 
 
 
